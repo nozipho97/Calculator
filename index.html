@@ -15,24 +15,30 @@
         <div class="container">
             <div class="calculator">
                 <input type="text" placeholder="0" id="outputscreen">
-                <button onclick="Clear()">AC</button>
-                <button onclick="del()">DEL</button>
-                <button onclick="display('/')">&divide;</button>
-                <button onclick="display('9')">9</button>
-                <button onclick="display('8')">8</button>
-                <button onclick="display('7')">7</button>
-                <button onclick="display('*')">&times;</button>
-                <button onclick="dispaly('6')">6</button>
-                <button onclick="display('5')">5</button>
-                <button onclick="display('4')">4</button>
-                <button onclick="display('+')">&plus;</button>
-                <button onclick="display('3')">3</button>
-                <button onclick="display('2')">2</button>
-                <button onclick="dispaly('1')">1</button>
-                <button onclick="display('-')">&minus;</button>
-                <button onclick="display('.')">.</button>
-                <button onclick="display(0)">0</button>
-                <button onclick="dislay('equal')">=</button>
+                <button class="symbol" onclick="Clear()">AC</button>
+                <button class="symbol" onclick="del()">DEL</button>
+                <button class="symbol" onclick="show('/')">&divide;</button>
+                <button class="symbol" onclick="show('*')">&times;</button>
+
+                <button class="number" onclick="show('7')">7</button>
+                <button class="number" onclick="show('8')">8</button>
+                <button class="number" onclick="show('9')">9</button>
+                <button class="symbol" onclick="show('-')">&minus;</button>
+
+                <button class="number" onclick="show('4')">4</button>
+                <button class="number" onclick="show('5')">5</button>
+                <button class="number" onclick="show('6')">6</button>
+                <button class="symbol" onclick="show('+')">&plus;</button>
+
+                <button class="number" onclick="show('1')">1</button>
+                <button class="number" onclick="show('2')">2</button>
+                <button class="number" onclick="show('3')">3</button>
+                <button class="symbol" onclick="show('.')">.</button>
+
+                <button class="number" onclick="show('(')">(</button>
+                <button class="number" onclick="show('0')">0</button>
+                <button class="number" onclick="show(')')">)</button>
+               <button class="equal" onclick="show('=')">=</button>
 
             </div>
         </div>
